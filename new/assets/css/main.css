@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 4;
+}
+header .headerdiv {
+  width: 80%;
+  margin: auto;
+}
+header .headerdiv .navmenu {
+  justify-content: flex-end;
+}
+header .headerdiv .mynav .mydiv {
+  display: flex;
+  justify-content: flex-end;
+}
+header .headerdiv .mynav .logo {
+  font-weight: bolder;
+}
+header .headerdiv .mynav .a-menu {
+  display: none;
+  color: black;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+main section {
+  width: 100%;
+  height: auto;
+}
+main section .row {
+  width: 100%;
+  height: auto;
+}
+main section .row .col-6 {
+  padding: 0;
+}
+main section .row .firstcolumn {
+  height: 100%;
+  background-color: #D4EAF5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .row .firstcolumn .text {
+  width: 80%;
+}
+main section .row .firstcolumn .text h1 {
+  size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #052C43;
+}
+main section .row .firstcolumn .text h1 strong {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #052C43;
+}
+main section .row .firstcolumn .text p {
+  text-align: start;
+  font-size: 14px;
+  color: gray;
+}
+main section .row .firstcolumn .text button {
+  width: 80px;
+  height: 40px;
+  border-radius: 30%;
+  border: none;
+  font-size: 10px;
+  color: #052C43;
+}
+main section .row .secondcolumn {
+  height: 100%;
+  background-color: #8AADC6;
+}
+main section .row .secondcolumn img {
+  max-width: 100%;
+  height: auto;
+}
+main .secondsection {
+  width: 100%;
+}
+main .secondsection .row {
+  width: 100%;
+}
+main .secondsection .row .col-3 {
+  padding: 0;
+}
+main .secondsection .row .dealsdiv {
+  background-color: #F5EBEB;
+  gap: 20px;
+  border: 10px solid white;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  justify-content: start;
+  flex-direction: column;
+}
+main .secondsection .row .dealsdiv i {
+  color: white;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #CB9696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .secondsection .row .dealsdiv h6 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+}
+main .secondsection .row .dealsdiv p {
+  font-size: 17px;
+  color: #87898B;
+}
+main .secondsection .row .qualitydiv {
+  background-color: #DCEBDD;
+  border: 10px solid white;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  gap: 20px;
+  justify-content: start;
+  flex-direction: column;
+}
+main .secondsection .row .qualitydiv i {
+  color: white;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #8BBD8E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .secondsection .row .qualitydiv h6 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+}
+main .secondsection .row .qualitydiv p {
+  font-size: 17px;
+  color: #87898B;
+}
+main .secondsection .row .designdiv {
+  background-color: #F5EFD8;
+  border: 10px solid white;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  gap: 20px;
+  justify-content: start;
+  flex-direction: column;
+}
+main .secondsection .row .designdiv i {
+  color: white;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #D1B54A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .secondsection .row .designdiv h6 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+}
+main .secondsection .row .designdiv p {
+  font-size: 17px;
+  color: #87898B;
+}
+main .secondsection .row .supportdiv {
+  background-color: #F5EFD8;
+  border: 10px solid white;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  gap: 20px;
+  justify-content: start;
+  flex-direction: column;
+}
+main .secondsection .row .supportdiv i {
+  color: white;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #D29A61;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .secondsection .row .supportdiv h6 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+}
+main .secondsection .row .supportdiv p {
+  font-size: 17px;
+  color: #87898B;
+}
+main .secondsection .aboutfurnish {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: flex;
+}
+main .secondsection .aboutfurnish .aboutfurnishdiv {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  top: 30%;
+}
+main .secondsection .aboutfurnish .aboutfurnishdiv h1 {
+  font-size: 40px;
+  color: #052C43;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+main .secondsection .aboutfurnish .aboutfurnishdiv p {
+  font-size: 18px;
+  color: #87898B;
+}
+main .secondsection .aboutfurnish .aboutfurnishdiv button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #CF7500;
+  border-radius: 50%;
+  box-shadow: 3px 5px 30px 10px #e59b39;
+}
+main .fourthsection {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .fourthsection .furniturecollection {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .fourthsection .furniturecollection h1 {
+  font-size: 40px;
+  color: #052C43;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+main .fourthsection .furniturecollection p {
+  font-size: 18px;
+  color: #87898B;
+}
+main .fivesection {
+  width: 100%;
+  height: 500px;
+  background-color: #CB9696;
+}
+main .fivesection .firstfurniturediv {
+  width: 100%;
+  background-color: rebeccapurple;
+  height: 50%;
+}
+main .fivesection .firstfurniturediv .whitetable {
+  height: 280px;
+}
+
+@media screen and (max-width: 991px) {
+  header .headerdiv .mynav .a-menu {
+    display: block;
+  }
+}
